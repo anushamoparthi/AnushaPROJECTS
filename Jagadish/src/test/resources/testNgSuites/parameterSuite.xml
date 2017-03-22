@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="parameter">
+
+	<test name="parameterTests">
+	
+		<parameter name="first" value="10"/>
+		<parameter name="second" value="20"/>
+		<classes>
+			<class name="com.java.practice.selenium.testcases.TestNgParameterExample" />
+			
+		</classes>
+		
+	</test>
+
+</suite>
